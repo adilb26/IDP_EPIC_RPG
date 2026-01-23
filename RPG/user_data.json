@@ -1,21 +1,21 @@
 {
     "a": {
         "password": "a",
-        "coin": 7589,
-        "xp": 7412,
+        "coin": 4849,
+        "xp": 7531,
         "level": 38,
-        "health": 631,
+        "health": 655,
         "total_health": 655,
-        "attack": 10,
-        "defense": 5,
+        "attack": 18,
+        "defense": 12,
         "inventory": {
             "Torn Pouch": 17,
-            "Small Gem": 12,
+            "Small Gem": 0,
             "Rusty Dagger": 16,
             "Wolf Fang": 14,
             "Tattered Hide": 12,
             "Cracked Fang": 10,
-            "Life Potion": 66,
+            "Life Potion": 179,
             "Fur Pelt": 7,
             "Bear Claw": 5,
             "Sharp Tooth": 10,
@@ -40,30 +40,20 @@
             "Slippery Skin": 3,
             "Mystic Orb": 1,
             "Spider Leg": 3,
-            "Legendary Gem": 1
+            "Legendary Gem": 1,
+            "🪵 Pine Log": 2,
+            "🪵 Maple Log": 2,
+            "🪵 Oak Log": 96,
+            "Wooden Sword": 2,
+            "Deer Antler": 1,
+            "Iron Sword": 1,
+            "Basic Armour": 1,
+            "Steel Armour": 1,
+            "Lucky Charm": 4
         },
         "username": "a",
-        "luck": 0,
-        "weapon": null,
-        "armour": null
-    },
-    "ab": {
-        "password": "ab",
-        "coin": 717,
-        "xp": 135,
-        "level": 2,
-        "health": 112,
-        "total_health": 115,
-        "attack": 10,
-        "defense": 5,
-        "inventory": {
-            "Rusty Dagger": 5,
-            "Life Potion": 24,
-            "\ud83e\udeb5 Pine Log": 1
-        },
-        "username": "ab",
-        "luck": 0,
-        "weapon": null,
-        "armour": null
+        "luck": 40,
+        "weapon": "Iron Sword",
+        "armour": "Steel Armour"
     }
 }

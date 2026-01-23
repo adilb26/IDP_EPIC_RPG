@@ -101,9 +101,20 @@ def rpg_adventure(level, user):
     ]
     
     creature = random.choice(adventure_creatures)
-    print("\n")
+    print("\n--------------------------------------------------")
+    print(f"🌄 ADVENTURE STARTED!")
+    print(f"⚔️ Enemy: {creature['emoji']} {creature['name']}")
+    print(f"💢 Enemy Attack Power: {creature['attack']}")
     print("--------------------------------------------------")
-    print(f"You encountered {creature['emoji']} {creature['name']}! Prepare for battle!")
+
+    user_damage = random.randint(20, 40) - user['defense']
+    if user_damage < 0:
+        user_damage = 0
+
+    user["health"] -= user_damage
+
+    print(f"💥 You received {user_damage} damage.")
+    print(f"❤️ Your Health: {user['health']}/{user['total_health']}")
     
     user_damage = random.randint(20, 40)
     user["health"] -= user_damage
@@ -116,6 +127,8 @@ def rpg_adventure(level, user):
         user["coin"] += creature["reward"]
         user["xp"] += creature["xp"]
         print(f"You earned {creature['reward']} coins and {creature['xp']} XP!")
+        print("--------------------------------------------------")
+
     
     check_level_up(user)
 

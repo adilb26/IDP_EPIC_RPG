@@ -49,7 +49,7 @@ def start_game():
         current_time = time.time()
 
         if choice == '1':
-            if current_time - last_hunt_time < 0:
+            if current_time - last_hunt_time < 10:
                 print("You need to wait before hunting again.")
                 continue
             level = get_level(current_user['xp'])
@@ -89,7 +89,7 @@ def start_game():
             store(current_user)
             save_user_data(users)
         elif choice == '7':
-            if current_time - last_chop_time < 20:
+            if current_time - last_chop_time < 0:
                 print("You need to wait before chopping wood again.")
                 continue
             rpg_chop(current_user)

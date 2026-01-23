@@ -22,7 +22,7 @@ def load_user_data():
 
 def save_user_data(data):
     with open(user_data_file, 'w') as file:
-        json.dump(data, file, indent=4)
+        json.dump(data, file, indent=4, ensure_ascii=False)
 
 def register():
     users = load_user_data()
