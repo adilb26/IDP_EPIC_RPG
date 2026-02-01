@@ -63,36 +63,3 @@ def store(user):
         user["armour"] = item
         user["defense"] = 12
         print("🛡️ Steel Armour equipped! Defense increased.")
-
-def craft(user):
-    print("\n--------------------------------------------------")
-    print("Crafting:")
-    print("1. Wooden Sword (needs 5 wood logs)")
-    print("2. Lucky Charm (needs 3 gems)")
-    print("--------------------------------------------------")
-    
-    choice = input("Enter craft option: ").strip()
-    
-    if choice == "1":
-        if user["inventory"].get("wood log", 0) < 5:
-            print("Insufficient wood logs.")
-            return
-        
-        user["inventory"]["wood log"] -= 5
-        user["inventory"]["Wooden Sword"] = user["inventory"].get("Wooden Sword", 0) + 1
-        user["weapon"] = "Wooden Sword"
-        user["attack"] = 12
-        print("🗡️ Crafted Wooden Sword! Attack increased.")
-    
-    elif choice == "2":
-        if user["inventory"].get("gem", 0) < 3:
-            print("Insufficient gems.")
-            return
-        
-        user["inventory"]["gem"] -= 3
-        user["inventory"]["Lucky Charm"] = user["inventory"].get("Lucky Charm", 0) + 1
-        user["luck"] = user.get("luck", 0) + 10
-        print("✨ Crafted Lucky Charm! Luck increased.")
-    
-    else:
-        print("Invalid choice.")
