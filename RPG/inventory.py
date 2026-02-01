@@ -1,5 +1,5 @@
 from utils import item_emojis
-
+    
 def view_inventory(user):
     if not user['inventory']:
         print("Your inventory is empty.")

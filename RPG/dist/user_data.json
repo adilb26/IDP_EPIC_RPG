@@ -1,0 +1,17 @@
+{
+    "krupali": {
+        "password": "1234",
+        "coin": 114,
+        "xp": 106,
+        "level": 2,
+        "health": 73,
+        "total_health": 115,
+        "attack": 10,
+        "defense": 5,
+        "inventory": {
+            "Small Gem": 1,
+            "Life Potion": 2
+        },
+        "username": "krupali"
+    }
+}

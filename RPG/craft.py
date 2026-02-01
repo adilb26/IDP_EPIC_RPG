@@ -30,4 +30,6 @@ def craft(user):
         print("✨ Crafted Lucky Charm! Luck increased.")
 
     else:
-        print("Exiting crafting.")
+        print("Exiting crafting.") 
+    
+# fix this bug (krupali to Adil)
