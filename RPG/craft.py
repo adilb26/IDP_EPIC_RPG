@@ -29,7 +29,8 @@ def craft(user):
         user["luck"] += 10
         print("✨ Crafted Lucky Charm! Luck increased.")
 
-    else:
-        print("Exiting crafting.") 
+    elif choice == "3":
+        print("Exiting crafting.")
     
-# fix this bug (krupali to Adil)
+    else:
+        print("Invalid option. Please enter 1, 2, or 3.")
