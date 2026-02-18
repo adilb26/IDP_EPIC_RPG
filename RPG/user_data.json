@@ -1,7 +1,7 @@
 {
     "a": {
         "password": "a",
-        "coin": 5462,
+        "coin": 5669,
         "xp": 7724,
         "level": 39,
         "health": 670,
@@ -15,7 +15,7 @@
             "Wolf Fang": 14,
             "Tattered Hide": 12,
             "Cracked Fang": 10,
-            "Life Potion": 184,
+            "Life Potion": 199,
             "Fur Pelt": 7,
             "Bear Claw": 5,
             "Sharp Tooth": 10,
@@ -58,7 +58,7 @@
     },
     "k": {
         "password": "k",
-        "coin": 0,
+        "coin": 530,
         "xp": 0,
         "level": 1,
         "health": 100,
@@ -68,6 +68,9 @@
         "luck": 0,
         "weapon": null,
         "armour": null,
-        "inventory": {}
+        "inventory": {
+            "Life Potion": 15
+        },
+        "username": "k"
     }
 }

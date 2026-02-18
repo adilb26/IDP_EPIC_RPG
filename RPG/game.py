@@ -89,14 +89,14 @@ def start_game():
             store(current_user)
             save_user_data(users)
         elif choice == '7':
-            if current_time - last_chop_time < 0:
+            if current_time - last_chop_time < 10:
                 print("You need to wait before chopping wood again.")
                 continue
             rpg_chop(current_user)
             save_user_data(users)
             last_chop_time = current_time
         elif choice == '8':
-            if current_time - last_reward_time < 20:
+            if current_time - last_reward_time < 12000:
                 print("You need to wait before claiming the reward again.")
                 continue
             reward(current_user)
